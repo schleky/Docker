@@ -1,4 +1,6 @@
-Docker projects for my Home Lab.
+# Docker projects for my Home Lab.
 
-To import Unraid Docker templates, download template file and add to 
+## Importing Unraid Docker templates.
+
+To import Unraid Docker templates, download the desired template file and add to 
 /boot/config/plugins/dockerMan/templates-user.
