@@ -1,3 +1,4 @@
+![Docker Logo](https://storage.googleapis.com/cdn.patricktriest.com/blog/images/posts/elastic-library/docker.png)
 Docker projects for my Home Lab.
 ================================
 
