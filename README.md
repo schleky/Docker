@@ -1,8 +1,5 @@
 Docker projects for my Home Lab.
-<<<<<<< HEAD:README.md
 ================================
-=======
->>>>>>> main:README
 
 Importing Unraid Docker templates:
 
