@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>plex-ngrok</Name>
+  <Repository>rlabinc/ngrok-plex:latest</Repository>
+  <Registry>https://hub.docker.com/r/andrijn/plex-ngrok/</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview/>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:4040]</WebUI>
+  <TemplateURL/>
+  <Icon>https://philnash.gallerycdn.vsassets.io/extensions/philnash/ngrok-for-vscode/1.10.0/1660286389330/Microsoft.VisualStudio.Services.Icons.Default</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1670375471</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="NGROK_PORT" Target="NGROK_PORT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">32400</Config>
+  <Config Name="NGROK_Token" Target="NGROK_Token" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">NGROKtoken</Config>
+  <Config Name="PLEX_Token" Target="PLEX_Token" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">plextoken</Config>
+  <Config Name="PLEX_BaseURL" Target="PLEX_BaseURL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">http://serverIP:32400</Config>
+  <Config Name="TZ" Target="TZ" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">America/Denver</Config>
+</Container>
